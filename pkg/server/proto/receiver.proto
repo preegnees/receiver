@@ -17,7 +17,7 @@ message Message {
     int64 Offset = 6;
     int64 CountSize = 7;
     int64 CountParts = 8;
-    bytes Content = 9;
+    bytes Content = 9; // еще нужен просто размер файла и может токен сюда вписать
 }
 
 message Resp {}
